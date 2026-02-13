@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shafiq — BIM Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;line-height:1.6;background:#0b1220;color:#e6eefc}
+    header{padding:48px 20px;max-width:980px;margin:auto}
+    .tag{display:inline-block;padding:6px 10px;border:1px solid #2a3a66;border-radius:999px;color:#b9c8ff;margin:6px 6px 0 0}
+    .card{background:#0f1a33;border:1px solid #20315a;border-radius:16px;padding:18px}
+    main{max-width:980px;margin:auto;padding:0 20px 60px}
+    h1{font-size:40px;margin:0 0 10px}
+    h2{font-size:18px;color:#b9c8ff;margin:0 0 12px}
+    a{color:#9bb7ff}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .col6{grid-column:span 6}
+    .col12{grid-column:span 12}
+    @media (max-width:800px){.col6{grid-column:span 12}}
+    .muted{color:#b8c4e6}
+    footer{max-width:980px;margin:auto;padding:20px;color:#91a2d6}
+    ul{margin:10px 0 0 18px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shafiq</h1>
+    <h2>BIM Modeler • Revit • Dynamo • MEP Coordination</h2>
+    <div class="muted">
+      Malaysia • Email: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a> • LinkedIn: <a href="#">YOUR_LINK_HERE</a>
+    </div>
+    <div style="margin-top:14px">
+      <span class="tag">Revit</span>
+      <span class="tag">Dynamo</span>
+      <span class="tag">Families</span>
+      <span class="tag">MEP</span>
+      <span class="tag">Clash Coordination</span>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card col12">
+      <h2>About</h2>
+      <p class="muted">
+        I’m a BIM Modeler focused on clean Revit models, coordinated MEP layouts, and automation using Dynamo.
+        I enjoy building repeatable workflows that save time and reduce coordination issues.
+      </p>
+    </section>
+
+    <section class="card col6">
+      <h2>Skills</h2>
+      <ul class="muted">
+        <li>Revit modeling (MEP/Arch/Struc coordination)</li>
+        <li>Revit families (parametric, shared parameters)</li>
+        <li>Dynamo automation (tagging, cleanup, batch tasks)</li>
+        <li>Sheets, views, standards & documentation</li>
+      </ul>
+    </section>
+
+    <section class="card col6">
+      <h2>Tools</h2>
+      <ul class="muted">
+        <li>Revit 2023/2024</li>
+        <li>Dynamo</li>
+        <li>Navisworks / clash workflow (if applicable)</li>
+        <li>AutoCAD / ZWCAD (if applicable)</li>
+      </ul>
+    </section>
+
+    <section class="card col12">
+      <h2>Projects</h2>
+      <div class="muted">
+        <p><b>Project A — MEP Modeling</b><br/>Scope: LOD, coordination notes, deliverables. (Add 2–3 bullet highlights)</p>
+        <p><b>Project B — Revit Family Pack</b><br/>Created parametric families with consistent parameters and types.</p>
+        <p><b>Project C — Dynamo Automation</b><br/>Automated tagging / QA checks to reduce manual time.</p>
+      </div>
+    </section>
+
+    <section class="card col12">
+      <h2>Downloads</h2>
+      <p class="muted">Add your CV PDF in the repo and link it here.</p>
+      <p><a href="CV.pdf">Download CV</a></p>
+    </section>
+
+    <section class="card col12">
+      <h2>Contact</h2>
+      <p class="muted">
+        Email: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a><br/>
+        LinkedIn: <a href="#">YOUR_LINK_HERE</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Shafiq • Built with GitHub Pages
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
